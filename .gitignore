@@ -23,6 +23,7 @@
 *.json
 *.cfg
 *.txt
+*.cache
 !setup.cfg
 !cfg/yolov3*.cfg
 
