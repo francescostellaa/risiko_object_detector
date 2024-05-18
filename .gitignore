@@ -40,4 +40,7 @@ data/images/*
 !data/*.sh
 
 .ipynb_checkpoints
+.pt
+yolov7
+
 

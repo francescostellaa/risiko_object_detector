@@ -1,0 +1,17 @@
+# COCO 2017 dataset http://cocodataset.org
+
+# download command/URL (optional)
+download: bash ./scripts/get_coco.sh
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+#train: train.txt
+#val: val.txt
+test: synthetic_dataset
+#test: real_images/images
+
+# number of classes
+nc: 12
+
+# class names
+names: [ 'blue_army', 'red_army', 'yellow_army', 'purple_army', 'black_army', 'green_army',
+         'blue_flag', 'red_flag', 'yellow_flag', 'purple_flag', 'black_flag', 'green_flag' ]
